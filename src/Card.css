@@ -1,0 +1,32 @@
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+
+}
+.card-header,.flexed{
+
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-weight: bold;
+margin: 15px 0;
+}
+
+.card-content ul{
+    list-style: none;
+    margin: 5px 20px;
+    width: 80%;
+align-self: flex-end;
+
+
+}
+.card-content li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
